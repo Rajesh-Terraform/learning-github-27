@@ -32,4 +32,4 @@ jobs:
         run: python --version
 
       - name: Run Python Program
-        run: python python/app.py
+        run: python app.py
