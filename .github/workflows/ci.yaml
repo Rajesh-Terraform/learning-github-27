@@ -14,7 +14,15 @@ jobs:
 
       - name: Checkout Repository
         uses: actions/checkout@v4
+         
+      - name: Show Files
+        run: |
+         pwd
+         ls -la
+         find .
 
+
+     
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -24,4 +32,4 @@ jobs:
         run: python --version
 
       - name: Run Python Program
-        run: python app.py  
+        run: python python/app.py
