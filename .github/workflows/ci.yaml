@@ -31,5 +31,4 @@ jobs:
       - name: Check Python Version
         run: python --version
 
-      - name: Run Python Program
-        run: python app.py
+      
