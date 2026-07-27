@@ -1,1 +1,0 @@
-echo "hello rajesh how are you"
